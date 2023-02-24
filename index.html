@@ -13,21 +13,20 @@
 
 <body>
     <div class="box">
-        <div class="first">First Section 
-            <button id="btn" type="button">Button</button>
+        <div class="first">First Section<button id="btn" type="button">Button</button>
             <script>
-                // Give an element with id btn a click event that displays an alert
-                $('#btn').on('click', function () {
-                    alert('Button click event');
-                })
+            // Give an element with id btn a click event that displays an alert
+            document.getElementById('btn').addEventListener('click', function() {
+            alert('Button click event');
+            })
             </script>
         </div>
         
         <div class="second">Second Section
-            <button id="btn" type="button">Button</button>
+            <button id="btnn" type="button">Button</button>
             <script>
                 // Give an element with id btn a click event that displays an alert
-                $('#btn').on('click', function () {
+                $('#btnn').on('click', function () {
                     alert('Button click event');
                 })
             </script>
